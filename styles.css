@@ -1,0 +1,42 @@
+body{
+ background-color: darkorchid;  
+ nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px; /* Adiciona um espaço de 10px entre os itens */
+} 
+.submenu {
+    display: none; /* Esconde os submenus por padrão */
+    position: absolute; /* Posiciona os submenus em relação ao elemento pai */
+    background-color: #f9f9f9; /* Cor de fundo dos submenus */
+    z-index: 1; /* Garante que os submenus fiquem acima de outros elementos */
+}
+
+.nav li:hover .submenu {
+    display: block; /* Mostra o submenu quando o mouse passa por cima do item principal */
+}
+text-align:center
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza os itens verticalmente */
+  }
+  button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+    text-decoration: none; /* Remove a sublinhado do texto */
+    display: inline-block; /* Torna o botão um bloco inline */
+    font-size: 16px;
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+  }
+  
